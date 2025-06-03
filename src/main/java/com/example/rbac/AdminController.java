@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class AdminController {
     @GetMapping("/admin/dashboard")
     public String adminDashboard() {
-        return "admin/dashboard";
+        return "admin dashboard";
     }
 }
