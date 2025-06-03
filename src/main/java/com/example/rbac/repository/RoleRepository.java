@@ -1,5 +1,6 @@
-package com.example.rbac;
+package com.example.rbac.repository;
 
+import com.example.rbac.model.Role;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.Optional;

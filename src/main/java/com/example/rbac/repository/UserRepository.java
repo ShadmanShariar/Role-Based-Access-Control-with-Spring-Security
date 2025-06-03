@@ -1,5 +1,6 @@
-package com.example.rbac;
+package com.example.rbac.repository;
 
+import com.example.rbac.model.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

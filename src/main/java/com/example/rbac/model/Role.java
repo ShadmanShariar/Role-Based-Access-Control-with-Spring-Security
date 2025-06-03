@@ -1,4 +1,4 @@
-package com.example.rbac;
+package com.example.rbac.model;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

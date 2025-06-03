@@ -1,4 +1,4 @@
-package com.example.rbac;
+package com.example.rbac.model;
 
 import java.util.HashSet;
 import java.util.Set;

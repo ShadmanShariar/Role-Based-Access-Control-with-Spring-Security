@@ -1,5 +1,9 @@
-package com.example.rbac;
+package com.example.rbac.service;
 
+import com.example.rbac.model.Role;
+import com.example.rbac.model.User;
+import com.example.rbac.repository.RoleRepository;
+import com.example.rbac.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

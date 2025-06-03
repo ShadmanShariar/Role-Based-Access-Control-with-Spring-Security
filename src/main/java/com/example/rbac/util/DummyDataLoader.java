@@ -1,5 +1,9 @@
-package com.example.rbac;
+package com.example.rbac.util;
 
+import com.example.rbac.model.Role;
+import com.example.rbac.model.User;
+import com.example.rbac.repository.RoleRepository;
+import com.example.rbac.repository.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
